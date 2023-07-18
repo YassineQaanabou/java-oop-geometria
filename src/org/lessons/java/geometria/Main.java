@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("il perimetro del reattangolo è " + rettangolo.getPerimeter());
         System.out.println("l'area del reattangolo è " + rettangolo.getSurface());
-
+        rettangolo.disegna(heightInput,baseInput);
 
         scan.close();
     }

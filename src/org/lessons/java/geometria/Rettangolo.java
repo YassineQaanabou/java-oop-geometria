@@ -18,4 +18,20 @@ public class Rettangolo {
         return base*height;
     }
 
+   void disegna(int height, int base)
+    {
+        for (int i = 0; i < height; i++)
+        {
+            System.out.println();
+            for (int j = 0; j < base; j++)
+            {
+
+                if (i == 0 || i == height-1 ||
+                        j== 0 || j == base-1)
+                    System.out.print("o");
+                else
+                    System.out.print(" ");
+            }
+        }
+    }
 }
